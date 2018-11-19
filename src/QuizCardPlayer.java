@@ -234,3 +234,4 @@ public class QuizCardPlayer {
 	} // showNextCard
 
 }// QuizCardPlayer class
+// plusz komment

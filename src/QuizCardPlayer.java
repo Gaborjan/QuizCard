@@ -168,6 +168,7 @@ public class QuizCardPlayer {
 			} else { //Az utolsó kártyát is elhagytuk
 				display.setText("That was last card!");
 				showAnswerButton.setEnabled(false);
+				showQuestionButton.setEnabled(false);
 				playButton.setEnabled(false);
 				isLastCard = true;
 				nextCardButton.setText("First Card");

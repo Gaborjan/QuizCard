@@ -1,6 +1,7 @@
 
 
 import java.util.*;
+import java.util.List;
 import java.awt.event.*;
 import javax.swing.*;
 import java.awt.*;
@@ -202,6 +203,7 @@ public class QuizCardPlayer {
 			showAnswerButton.setEnabled(true);
 			currentCardIndex = 0;
 			isLastCard = false;
+			//cardList.sort(Comparator.comparingInt(QuizCard::getCardID));
 			showNextCard();
 		} catch (Exception ex) {
 			JOptionPane.showMessageDialog(frame, "Hiba történt a fájlművelet közben!", "Hiba", JOptionPane.ERROR_MESSAGE);
